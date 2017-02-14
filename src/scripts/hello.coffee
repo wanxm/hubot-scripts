@@ -21,7 +21,8 @@ mornings = [
     "Good morning, %",
     "Good morning to you too, %",
     "Good day, %",
-    "Good 'aye!, %"
+    "Good 'aye!, %",
+    "Hello,I am Rocket.Chat,%"
 ]
 module.exports = (robot) ->
     robot.hear /(hello|good( [d'])?ay(e)?)/i, (msg) ->
